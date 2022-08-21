@@ -1,3 +1,11 @@
+import about from "../data/about"
+import { FooterWrapper } from "../styled-components/footer"
+
 export default function Footer(props){
-    return <h1>Footer</h1>
+//  Todo add social to footer
+    return (
+        <FooterWrapper>
+            Created by { about.name } copyright { new Date().getFullYear() }
+        </FooterWrapper>
+    )
 }
