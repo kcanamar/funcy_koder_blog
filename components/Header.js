@@ -7,7 +7,6 @@ export default function Header(props){
         <NavBar>
             <Title>{about.title}</Title>
             <Menu>
-                <Link href="/blog"><SubLink>Blog</SubLink></Link>
                 <ALink href={about.github}>GitHub</ALink>
                 <ALink href={about.linkedin}>LinkedIn</ALink>
                 <ALink href={about.twitter}>Twitter</ALink>
